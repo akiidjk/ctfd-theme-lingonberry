@@ -329,8 +329,8 @@ a {
     @media (width > 991px) {
         &>.notification-row {
             position: fixed;
-            left: calc(50cqw - 256px);
-            top: calc(100vh - 256px);
+            left: calc(50cqw - 128px);
+            top: calc(100vh - 650px);
             width: 512px;
             margin: 0;
             user-select: none;
@@ -350,8 +350,8 @@ a {
 
                 &.alert-success {
                     color: #FFF;
-                    border-color: #0f5132;
-                    background: #39c18388;
+                    border-color: var(--bs-dark);
+                    background: var(--bs-dark);
                 }
 
                 &.alert-danger {

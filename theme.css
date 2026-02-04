@@ -939,7 +939,7 @@ body:has(>main>.jumbotron>.container>div>a[href*="lyra.horse"]) {
 main>div.container {
     padding: 24px;
     max-width: 1400px;
-    padding-bottom: 250px;
+    padding-bottom: 24px;
 }
 
 @media (max-width: 768px) {
@@ -966,7 +966,7 @@ main>div.container:not(:has(>div[x-data="ChallengeBoard"]))>.row>div {
 }
 
 div[x-show="loaded"] {
-    max-height: 80vh;
+    max-height: 70vh;
     overflow-y: scroll;
 }
 
@@ -990,7 +990,7 @@ div[x-data="ChallengeBoard"] .challenges-row {
 }
 
 .jumbotron {
-    margin-bottom: 48px !important;
+    margin-bottom: 0px !important;
     text-align: center;
 }
 
